@@ -1,0 +1,180 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.box{
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.button{
+    font-size: 1em;
+    padding: 10px;
+    color: white;
+    border: 2px salid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover{
+    background: #06D85F;
+}
+.popup .close:hover {
+    color: #06D85F;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup{
+    margin:  70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #929396;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+.wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.clash-card {
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 14px/5px;
+    position: relative;
+    text-align: center;
+    box-shadow: -4px 20px 30px -20px black;
+    z-index: 9999;
+  }
+
+  .clash-card__image {
+    position: relative;
+    height: 270px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+
+  .clash-card__image--barbarian {
+    background: url('aretes.jpg');
+  }
+  img {
+    width: 300px;
+    position: static;    
+    top: -65px;
+    left: -40px;
+  }
+  
+  .clash-card__unit-name {
+    font-size: 26px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 4px;
+  }
+
+  .clash-card__unit-description {
+    padding: 20px;
+    margin-bottom: 10px; 
+    color: #989AA1; 
+  }
+  .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .clash-card__unit-stats--barbarian {
+    background: #0B206E;
+    color: #fff;
+  }
+  .one-third {
+    border-right: 1px solid #0B206E;
+ }
+
+ .clash-card__unit-stats {
+  
+    color: white;
+    font-weight: 700;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+ }
+ 
+ .one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+    text-align: center;
+  }
+
+  .stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .no-border {
+    border-right: none;
+  }
+  
+ .clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+ .popup .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+ .popup .close:hover{
+    color: #061C03;
+}
+
